@@ -1,0 +1,48 @@
+[2018-03-27T13:48:53.846] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/getUser/%E4%BA%91%E9%A3%9E
+request client ip:  ::1
+request query:  {}
+response time: 233
+response status: 200
+response body: 
+[{"id":1,"firstName":"黄","lastName":"云飞","email":"huangyunfeihufe@hotmail.com","createdAt":"2018-03-22T01:12:55.000Z","updatedAt":"2018-03-22T01:12:55.000Z"}]
+*************** response log end ***************
+
+[2018-03-27T13:49:39.695] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/getUser/%E4%BA%91%E9%A3%9E
+request client ip:  ::1
+request query:  {}
+response time: 9
+response status: 200
+response body: 
+[{"id":1,"firstName":"黄","lastName":"云飞","email":"huangyunfeihufe@hotmail.com","createdAt":"2018-03-22T01:12:55.000Z","updatedAt":"2018-03-22T01:12:55.000Z"}]
+*************** response log end ***************
+
+[2018-03-27T13:50:41.005] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/getUser/%E4%BA%91%E9%A3%9E
+request client ip:  ::1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+[{"id":1,"firstName":"黄","lastName":"云飞","email":"huangyunfeihufe@hotmail.com","createdAt":"2018-03-22T01:12:55.000Z","updatedAt":"2018-03-22T01:12:55.000Z"}]
+*************** response log end ***************
+
+[2018-03-27T13:52:06.460] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/getUser/%E4%BA%91%E9%A3%9E
+request client ip:  ::1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+[{"id":1,"firstName":"黄","lastName":"云飞","email":"huangyunfeihufe@hotmail.com","createdAt":"2018-03-22T01:12:55.000Z","updatedAt":"2018-03-22T01:12:55.000Z"}]
+*************** response log end ***************
+

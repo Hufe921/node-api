@@ -1,0 +1,271 @@
+[2018-03-29T10:01:43.856] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postSelection/
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'userId' of undefined
+err stack: TypeError: Cannot read property 'userId' of undefined
+    at Object.postSelection (g:\vscode\winning-koa\demo\core\services\selection.js:41:22)
+    at module.exports.POST /api/postSelection (g:\vscode\winning-koa\demo\controllers\selection.js:13:52)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\winning-koa\demo\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\winning-koa\demo\rest.js:16:27
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\winning-koa\demo\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:05:03.717] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postSelection/
+request client ip:  ::1
+request body: 
+{"userId":1,"projectId":1}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'userId' of undefined
+err stack: TypeError: Cannot read property 'userId' of undefined
+    at Object.postSelection (g:\vscode\winning-koa\demo\core\services\selection.js:41:22)
+    at module.exports.POST /api/postSelection (g:\vscode\winning-koa\demo\controllers\selection.js:13:52)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\winning-koa\demo\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\winning-koa\demo\rest.js:16:27
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\winning-koa\demo\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:05:59.214] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postSelection
+request client ip:  ::1
+request body: 
+{"userId":1,"projectId":1}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'userId' of undefined
+err stack: TypeError: Cannot read property 'userId' of undefined
+    at Object.postSelection (g:\vscode\winning-koa\demo\core\services\selection.js:41:22)
+    at module.exports.POST /api/postSelection (g:\vscode\winning-koa\demo\controllers\selection.js:13:52)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\winning-koa\demo\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\winning-koa\demo\rest.js:16:27
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\winning-koa\demo\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:06:52.823] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postSelection
+request client ip:  ::1
+request body: 
+{"userId":1,"projectId":1}
+response time: 24489
+err name: TypeError
+err message: Cannot read property 'userId' of undefined
+err stack: TypeError: Cannot read property 'userId' of undefined
+    at Object.postSelection (g:\vscode\winning-koa\demo\core\services\selection.js:41:22)
+    at module.exports.POST /api/postSelection (g:\vscode\winning-koa\demo\controllers\selection.js:13:52)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\winning-koa\demo\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\winning-koa\demo\rest.js:16:27
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\winning-koa\demo\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:08:24.690] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/putSelection
+request client ip:  ::1
+request body: 
+{"userId":1,"projectId":1}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'userId' of undefined
+err stack: TypeError: Cannot read property 'userId' of undefined
+    at Object.putSelection (g:\vscode\winning-koa\demo\core\services\selection.js:55:26)
+    at PUT /api/putSelection (g:\vscode\winning-koa\demo\controllers\selection.js:39:52)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\winning-koa\demo\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\winning-koa\demo\rest.js:16:27
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\winning-koa\demo\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:32:40.851] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postProject
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'filename' of undefined
+err stack: TypeError: Cannot read property 'filename' of undefined
+    at module.exports.POST /api/postProject (g:\vscode\winning-koa\demo\controllers\project.js:25:41)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:33:50.414] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postProject
+request client ip:  ::1
+request body: 
+{}
+response time: 10127
+err name: TypeError
+err message: Cannot read property 'filename' of undefined
+err stack: TypeError: Cannot read property 'filename' of undefined
+    at module.exports.POST /api/postProject (g:\vscode\winning-koa\demo\controllers\project.js:25:41)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:35:53.489] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postProject
+request client ip:  ::1
+request body: 
+{}
+response time: 86413
+err name: TypeError
+err message: Cannot read property 'filename' of undefined
+err stack: TypeError: Cannot read property 'filename' of undefined
+    at module.exports.POST /api/postProject (g:\vscode\winning-koa\demo\controllers\project.js:25:41)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:35:56.135] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postProject
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'filename' of undefined
+err stack: TypeError: Cannot read property 'filename' of undefined
+    at module.exports.POST /api/postProject (g:\vscode\winning-koa\demo\controllers\project.js:25:41)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:37:33.434] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postProject
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'filename' of undefined
+err stack: TypeError: Cannot read property 'filename' of undefined
+    at module.exports.POST /api/postProject (g:\vscode\winning-koa\demo\controllers\project.js:25:41)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:38:21.626] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postProject
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'filename' of undefined
+err stack: TypeError: Cannot read property 'filename' of undefined
+    at module.exports.POST /api/postProject (g:\vscode\winning-koa\demo\controllers\project.js:25:41)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T10:40:04.721] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/postProject
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'filename' of undefined
+err stack: TypeError: Cannot read property 'filename' of undefined
+    at module.exports.POST /api/postProject (g:\vscode\winning-koa\demo\controllers\project.js:25:41)
+    at dispatch (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\winning-koa\demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+

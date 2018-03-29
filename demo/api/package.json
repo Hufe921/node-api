@@ -1,0 +1,32 @@
+{
+  "name": "koa-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
+    "db-change": "node core/domain/db-change.js",
+    "db-migration": "node_modules/.bin/sequelize db:migrate",
+    "db-seed": "node_modules/.bin/sequelize db:seed:all",
+    "build": "pm2 start app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.5",
+    "log4js": "^2.5.3",
+    "mime": "^2.2.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "mz": "^2.7.0",
+    "node-uuid": "^1.4.8",
+    "nunjucks": "^3.1.2",
+    "sequelize": "^4.37.3",
+    "sequelize-cli": "^4.0.0"
+  }
+}
