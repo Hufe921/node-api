@@ -4,7 +4,7 @@ A architecture for writing node.js API, using koa2, koa-router,sequelize
 
 **一、整体采用类三层架构，结构文件划分为：**
 
-1.controllers（界面层，对外暴露api接口）
+1.controllers（控制器，对外暴露api接口）
 
 2.core/services（业务逻辑层）
 
