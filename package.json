@@ -1,30 +1,37 @@
 {
-  "name": "koa-cli",
+  "name": "node-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha ./test/test.js",
     "dev": "node app.js",
+    "db-create": "node_modules/.bin/sequelize db:create",
     "db-change": "node core/domain/db-change.js",
     "db-migration": "node_modules/.bin/sequelize db:migrate",
-    "db-seed": "node_modules/.bin/sequelize db:seed:all"
+    "db-seed": "node_modules/.bin/sequelize db:seed:all",
+    "db-simple1": "node_modules/.bin/sequelize model:generate --name User --attributes firstName:string,lastName:string,email:string",
+    "db-simple2": "node_modules/.bin/sequelize migration:create --name add-testcolumn-to-todo",
+    "build": "pm2 start app.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "koa": "^2.5.0",
     "koa-bodyparser": "^4.2.0",
+    "koa-multer": "^1.0.2",
     "koa-router": "^7.4.0",
     "koa2-cors": "^2.0.5",
     "log4js": "^2.5.3",
     "mime": "^2.2.0",
+    "mocha": "^5.2.0",
     "mysql": "^2.15.0",
     "mysql2": "^1.5.3",
     "mz": "^2.7.0",
     "node-uuid": "^1.4.8",
-    "nunjucks": "^3.1.2",
     "sequelize": "^4.37.3",
-    "sequelize-cli": "^4.0.0"
+    "sequelize-cli": "^4.0.0",
+    "should": "^13.2.3",
+    "uuid": "^3.3.2"
   }
 }

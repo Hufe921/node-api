@@ -1,34 +1,20 @@
-const generic = require('../../utils/generic')
-const model = require('../models/index')
-const User = model.User
+const extension = require('../../utils/extension') // 扩展方法
+const generic = require('../../utils/generic') // 通用方法
 
-// 查找
-async function getUser(name) {
-    return await User.findAll({
-        where: {
-            lastName: name
-        }
-    });
+const utilsType = require('../../dtos/utils/index') // 通用类
+
+const Op = require('sequelize').Op
+const model = require('../models/index') // orm映射实体
+
+// 实体
+// const DataValue = model.DataValue
+
+// 首页信息初始化
+async function getMainData() {
+    return new utilsType.Tips(true, '连接成功')
 }
 
-// 增加
-async function postUser(data) {
-    await User.create(data);
-}
-
-// 修改
-async function putUserById(id, obj) {
-    await generic.update(User, obj, id)
-}
-
-// 删除
-async function deleteUserById(id) {
-    await generic.delete(User, id)
-}
 
 module.exports = {
-    getUser,
-    postUser,
-    putUserById,
-    deleteUserById
+    getMainData
 }
